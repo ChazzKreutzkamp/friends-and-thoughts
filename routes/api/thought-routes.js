@@ -14,11 +14,21 @@ router
     .get(getAllThoughts);
 
 router
-    .route('/id')
+    .route('/:id')
     .get(getThoughtById);
 
 router
-    .route('/userId')
+    .route('/:userId')
     .post(addThought);
 
 router
+    .route('/:userId/:thoughtId')
+    .delete(removeThought)
+    .put(updateThought)
+    .post(addReply);
+
+router
+    .route('/:userId/:thoughtId/:replyId')
+    .delete(removeReply);
+
+module.exports = router;
