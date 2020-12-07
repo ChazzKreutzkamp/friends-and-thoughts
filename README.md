@@ -6,6 +6,7 @@ This code is the backend to a potential social media website where a user can ma
 ## How to Use the Application:
 
 Link to a video that shows the application in action: [Video Explination Part One](https://drive.google.com/file/d/1AN_abDLu-69EdXFrzB0wV8ZU4hNwtxYk/view)
+
                                                       [Video Explination Part Two](https://drive.google.com/file/d/1HuDrFaVvfIZH3AxUnJLGMQ6r4W--FLc-/view)
 
 ## Important Links:
