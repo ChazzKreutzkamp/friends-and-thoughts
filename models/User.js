@@ -28,13 +28,15 @@ const FriendSchema = new Schema(
 const UserSchema = new Schema({
     username: {
         type: String,
+        unique: true,
         required: "Please enter a Username",
         trim: true
     },
     email: {
         type: String,
         unique: true,
-        match: [/.+@.+\..+/, 'Please enter a valid e-mail address']
+        required: "Please enter an email address",
+        match: [/.+@.+\..+/, 'Please enter a valid email address']
     },
     thoughts: [
         {

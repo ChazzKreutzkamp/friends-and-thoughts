@@ -10,7 +10,8 @@ const ReplySchema = new Schema(
         replyText: {
             type: String,
             required: "Please enter text for your reply",
-            trim: true
+            trim: true,
+            validate: [({ length }) => length <= 280, 'Thought text does not comply to thought length rules.']
         },
         username: {
             type: String,
@@ -39,7 +40,8 @@ const ThoughtSchema = new Schema({
     thoughtText: {
         type: String,
         required: "Please enter text for your thought to create a thought.",
-        trim: true
+        trim: true,
+        validate: [({ length }) => length <= 280, 'Thought text does not comply to thought length rules.']
     },
     createdAt: {
         type: Date,
