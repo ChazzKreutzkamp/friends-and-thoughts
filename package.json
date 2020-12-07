@@ -1,0 +1,24 @@
+{
+  "name": "friends-and-thoughts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.11.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChazzKreutzkamp/friends-and-thoughts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChazzKreutzkamp/friends-and-thoughts/issues"
+  },
+  "homepage": "https://github.com/ChazzKreutzkamp/friends-and-thoughts#readme"
+}
