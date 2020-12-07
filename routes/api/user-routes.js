@@ -21,11 +21,11 @@ router
     .delete(deleteUser);
 
 router
-    .route('/:userId/friends')
+    .route('/friends/:userId')
     .post(addFriend);
 
 router
-    .route('/:userId/friends/:friendId')
+    .route('/friends/:userId/:friendId')
     .delete(removeFriend);
 
 module.exports = router;

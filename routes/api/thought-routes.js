@@ -24,11 +24,14 @@ router
 router
     .route('/:userId/:thoughtId')
     .delete(removeThought)
-    .put(updateThought)
+    .put(updateThought);
+
+router
+    .route('/reply/:thoughtId')
     .post(addReply);
 
 router
-    .route('/:userId/:thoughtId/:replyId')
+    .route('/reply/:thoughtId/:replyId')
     .delete(removeReply);
 
 module.exports = router;
