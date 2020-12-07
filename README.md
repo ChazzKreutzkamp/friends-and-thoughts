@@ -18,5 +18,5 @@ My Email: chazz.kreutzkamp@gmail.com
 
 ## Image of the Application in Action:
 
-![al text](https://github.com/ChazzKreutzkamp/E-Commerce-Project-13/screenshot.JPG)
+![al text](https://github.com/ChazzKreutzkamp/E-Commerce-Project-13/blob/main/readme_img/screenshot.JPG)
 
